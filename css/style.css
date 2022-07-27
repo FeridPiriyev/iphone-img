@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+.iphone-container{
+    width: 300px;
+    height: 600px;
+    background: #B0D3EF;
+    border: 3px solid black;
+    border-radius: 35px;
+    margin: 15px auto;
+}
+
+.iphone-container .iphone-camera{
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 30%;
+    margin: 5px;
+}
+
+.iphone-container .iphone-camera-1{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 3px solid #E1F3FD;
+    position: relative;
+    left: 10px;
+    top: 7px;
+}
+
+.iphone-container .iphone-camera-1 .iphone-camera-border{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background:#010F2A;
+    position: relative;
+    left: 13px;
+    top: 13px;
+}
+
+.iphone-container .iphone-camera-2 .iphone-camera-border{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background:#010F2A;
+    position: relative;
+    left: 8px;
+    top: 8px;
+}
+
+.iphone-container .iphone-camera-3 .iphone-camera-border{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background:#010F2A;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+
+.iphone-container .iphone-camera-2{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    border: 3px solid #E1F3FD;
+}
+
+.iphone-container .iphone-camera-3{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    border: 3px solid #E1F3FD;
+    position: relative;
+    bottom: 30px;
+    left:10px;
+}
+
+.iphone-camera .iphone-camera-lens-1{
+    height: 22px;
+    width: 22px;
+    background-color: #f9eddd;
+    border-radius: 50%;
+    position: relative;
+    left: 85px;
+    bottom: 140px;
+    border: 3px solid #E1F3FD;
+}
+
+.iphone-camera .iphone-camera-lens-2{
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 85px;
+    bottom: 73px;
+}
+
+.iphone-left-button{
+    width: 2px;
+    height: 63px;
+    background-color: black;
+    position: relative;
+    border-radius:70px;
+    top: 50px;
+    right: 4px;
+}
+
+.iphone-right-button .button-1{
+    width: 2px;
+    height: 25px;
+    background-color: #030000;
+    border-radius: 70px;
+    position: relative;
+    top: -70px;
+    left: 296px;
+}
+
+.iphone-right-button .button-2{
+    width: 2px;
+    height: 55px;
+    background-color: #030000;
+    border-radius: 70px;
+    position: relative;
+    top: -50px;
+    left: 296px;
+}
+
+.iphone-right-button .button-3{
+    width: 2px;
+    height: 47px;
+    background-color: #030000;
+    border-radius: 70px;
+    position: relative;
+    top: -30px;
+    left: 296px;
+}
+
+.apple-icon {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+.apple-icon i{
+    font-size: 80px;
+    color: #ffffff;
+}
